@@ -1,0 +1,23 @@
+package com.app.weatherapp.Retrofit;
+
+import com.google.gson.annotations.SerializedName;
+
+/**
+ * CREATED BY SANJAIKUMAR On 09-06-2020
+ */
+public class Example {
+
+
+
+    @SerializedName("main")
+    private Main main;
+
+
+    public Main getMain() {
+        return main;
+    }
+
+    public void setMain(Main main) {
+        this.main = main;
+    }
+}
